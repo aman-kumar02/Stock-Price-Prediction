@@ -68,7 +68,7 @@ def plot_stock_prices(df, prediction, next_interval_time):
 
 # Main function
 if __name__ == "__main__":
-    ticker = "NHPC.NS"  # Example ticker for Reliance Industries on NSE
+    ticker = "NHPC.NS"  # Example ticker for NHPC on NSE
 
     # Get data
     stock_data = get_stock_data(ticker)
